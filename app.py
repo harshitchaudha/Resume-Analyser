@@ -22,7 +22,7 @@ def input_pdf_text(uploaded_file):
     return text
 
 # Streamlit App
-st.set_page_config(page_title="ATS Resume Expert")
+st.set_page_config(page_title="Resume Expert")
 st.header = "ATS Tracking System"       
 st.title("Resume Analyzer: ATS Score and JD Match Analyzer")
 jd = st.text_area("Paste the Job Description", key="input")
